@@ -62,6 +62,8 @@ bool thread_mlfqs;
 /* Sleeping thread list*/
 static struct list sleeping_threads;
 
+
+
 /* Thread to be woken up list*/
 static struct list woken_up_threads;
 
